@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form class="row g-3" method="post">
+    <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Username</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="Username" name="username">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+    </div>
+</form>
+{% endblock %}
